@@ -24,9 +24,11 @@ Generally speaking, Python "3.8", Numpy "1.19.2", and Tensorflow "2.4.1" were fo
 
 If you'd like to run the python programs used without installing Rust, follow the above instructions for installing python depedencies. The following files and their purposes are the relevant python scripts:
 
-- python/clustering/clustering.py                : Runs HDBScan and BERT encoding on full contents of the raw bill files
-- python/clustering/BERT Clustering Bills.ipynb" : Notebook for interactively viewing the clustering algorithm
+- **python/clustering/clustering.py**                : Runs HDBScan and BERT encoding on full contents of the raw bill files
+- **python/clustering/BERT Clustering Bills.ipynb** : Notebook for interactively viewing the clustering algorithm
 
 
-- python/formatting/formatterTraining.py         : Trains the formatter, outputting the weights to ../../data/3_formatting/0_model_checkpoints 
+- **python/formatting/formatterTraining.py**         : Trains the formatter, outputting the weights to ../../data/3_formatting/0_model_checkpoints 
+
+- **python/formatting/formatterTraining.py**         : Runs the formatter, which needs to be passed weights from ../../data/3_formatting/0_model_checkpoints
 
