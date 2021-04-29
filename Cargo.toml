@@ -1,0 +1,13 @@
+[package]
+name = "cobi"
+version = "0.1.0"
+authors = ["Dan Thompson <dthompson@fitbit.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# For CLI
+clap = "3.0.0-beta.2"
+scraper = { path = "./crates/scraper" }
+split_to_json = { path = "./crates/split_to_json" }

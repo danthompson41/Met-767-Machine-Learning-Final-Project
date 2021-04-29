@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "clustering2"
+version = "0.1.0"
+description = ""
+authors = ["Dan <danthompson41@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+umap-learn = "^0.5.1"
+hdbscan = "^0.8.27"
+numpy = "^1.19.2"
+sklearn = "^0.0"
+jupyter = "^1.0.0"
+pandas = "^1.1.5"
+sentence-transformers = "^1.0.4"
+matplotlib = "^3.4.1"
+pa = "^0.0.23-alpha.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
